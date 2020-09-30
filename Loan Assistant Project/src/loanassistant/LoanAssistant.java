@@ -46,7 +46,8 @@ public class LoanAssistant extends JFrame
 	Color lightYellow = new Color(255, 255, 128);
 	boolean computePayment;
 
-    public static void main(String args[])
+    @SuppressWarnings("deprecation")
+	public static void main(String args[])
     {
     	//Creating Frame
     	new LoanAssistant().show();
